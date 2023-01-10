@@ -34,7 +34,9 @@ for (int i = 0; i < number; i++)
 }
 
 
-for
+/*for
 przedział 0 - 99
     n = 5;
 oblicza średnią wszystkich liczb
+*/
+
