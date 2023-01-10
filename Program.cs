@@ -32,6 +32,16 @@ for (int i = 0; i < number; i++)
         Console.WriteLine(i);
     }
 }
+
+
+
+/*for
+przedział 0 - 99
+    n = 5;
+oblicza średnią wszystkich liczb
+*/
+
+
 for (int i = 0; i < n; i++)
 {
     int rand_num = random.Next(0, 99);
@@ -42,11 +52,7 @@ for (int i = 0; i < n; i++)
 
 Console.WriteLine("\n " + sr);
 Console.WriteLine(liczba);
+}
 
 
-/*for
-przedział 0 - 99
-    n = 5;
-oblicza średnią wszystkich liczb
-*/
 
