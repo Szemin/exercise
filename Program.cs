@@ -56,3 +56,8 @@ Console.WriteLine(liczba);
 
 
 
+//przedział 1 do 100 czyli maksymalnie 10x10 
+//podwójna pętla for
+
+
+
