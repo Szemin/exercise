@@ -32,6 +32,16 @@ for (int i = 0; i < number; i++)
         Console.WriteLine(i);
     }
 }
+for (int i = 0; i < n; i++)
+{
+    int rand_num = random.Next(0, 99);
+   liczba = rand_num;
+   Console.WriteLine(rand_num);
+  sr += rand_num/n;
+
+
+Console.WriteLine("\n " + sr);
+Console.WriteLine(liczba);
 
 
 /*for
