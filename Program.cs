@@ -21,3 +21,14 @@ podanej liczby. Przykład, dla 15 program powinien wyświetlić 1, 3, 5, 7, 9, 1
 15.
 */
 
+Console.WriteLine("Insert number");
+
+int number = int.Parse(Console.ReadLine());
+
+for (int i = 0; i < number; i++)
+{
+    if (i % 2 == 1)
+    {
+        Console.WriteLine(i);
+    }
+}
