@@ -7,6 +7,10 @@ class Program
   var document2 = File.ReadAllLines(@"D:\AAC#\tekstowy.txt");  //ReadAllLines przywołując jakikolwiek argument na tej metodzie zostaje wywołana metoda ToString, 
                                                      //  która ma każdy obiekt w c#, dla referencyjnych wartości np tablicy bez nadpisania domyślnie zwraca nazwę danego typu
   
+  var document2String = string.Join(Environement.NewLine, document2)   // łączy bez znaku nowej linii dla windows statyczna wartość NewLine z klasy environement zwróci odpowiednią wartość znaku nowej linii
+                                                                        // drugi element joina to tablica elementów document2 
+  
+  
   Console.WriteLine("document1");
   Console.WriteLine(document1);
   
