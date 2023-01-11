@@ -9,12 +9,16 @@ class Program
   Console.WriteLine("document1");
   Console.WriteLine(document1);
   
+  Console.WriteLine("document2");
+  Console.WriteLine(document2;
+  
+  
   }
   
   
   static void Main()
   {
-  
+    ReadFIles();
   }
 
 
