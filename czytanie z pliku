@@ -3,8 +3,9 @@ class Program
 
   static void ReadFiles()
   {
-  var document1 = File.ReadAllText(@"D:\AAC#\tekstowy.txt");
-  var document2 = File.ReadAllLines(@"D:\AAC#\tekstowy.txt");
+  var document1 = File.ReadAllText(@"D:\AAC#\tekstowy.txt");   // ReadAllTekst czyta po prostu tekst z dokumentu tekstowego
+  var document2 = File.ReadAllLines(@"D:\AAC#\tekstowy.txt");  //ReadAllLines przywołując jakikolwiek argument na tej metodzie zostaje wywołana metoda ToString, 
+                                                     //  która ma każdy obiekt w c#, dla referencyjnych wartości np tablicy bez nadpisania domyślnie zwraca nazwę danego typu
   
   Console.WriteLine("document1");
   Console.WriteLine(document1);
