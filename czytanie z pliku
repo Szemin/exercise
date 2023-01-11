@@ -3,6 +3,7 @@ class Program
 
   static void ReadFiles()
   {
+  var document1 = File.ReadAllText(@"D:\AAC#\tekstowy.txt");
   }
   
   
