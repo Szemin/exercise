@@ -5,6 +5,8 @@
         static void Main(string[] args)
         {
           
+              //obiekt to instancja klasy, a klasa może być używana przez plan(blueprint) do tworzenia obiektów
+            // obiekty mogą mieć pola i metody - pola(fields) to to co obiekt zawiera, metoda to to co obiekt może zrobić
             
             Human human1 = new Human();
             Human human2 = new Human();
