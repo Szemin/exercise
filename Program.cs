@@ -4,23 +4,28 @@
     {
         static void Main(string[] args)
         {
+           Human human1 = new Human();
+
+            human1.name = "Rick";
+
+
             Console.ReadKey();
         }
     }
-     class Human
+   public class Human
     {
-        String name;
-        int age;
+       public String name;
+       public int age;
 
-        void Eat()
+       public void Eat()
         {
-            Console.WriteLine(name + "eating");    
+            Console.WriteLine(name + "is eating");    
 
             
         }
-        void Sleep()
+      public void Sleep()
         {
-            Console.WriteLine(name + "eating");
+            Console.WriteLine(name + "is sleeping");
 
 
         }
