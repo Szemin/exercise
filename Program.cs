@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
           
               //obiekt to instancja klasy, a klasa może być używana przez plan(blueprint) do tworzenia obiektów
