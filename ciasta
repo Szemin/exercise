@@ -1,0 +1,73 @@
+menu wybierania pizzy 
+class Menu
+{
+    static void Main(string[] args)
+    {
+
+    }
+
+
+
+
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+namespace Projektpraktyczny
+{
+    class Program
+    {
+        //string[] ciasta = new string[] {"Murzynek","Szarlotka","Karpatka","Sernik","makowiec","Kremówki" };
+        static List<string> ciasta = new List<string>() { "Murzynek", "Szarlotka", "Karpatka", "Sernik", "makowiec", "Kremówki" };
+        static void Main(string[] args)
+        {
+            odswiez();
+        }
+        static void menu()
+        {
+            Console.WriteLine("-----MENU-----");
+            Console.WriteLine("----------------------------");
+            Console.WriteLine("1. Dodaj ciasto");
+            Console.WriteLine("2. Edytuj ciasto");
+            Console.WriteLine("3. Usuń ciasto!");
+            Console.WriteLine("4. wyśwetl listę ciast");
+            Console.WriteLine("4. Zamknij program");
+            Console.WriteLine("----------------------------");
+        }
+        static void listaCiast()
+        {
+            foreach (string item in ciasta)
+            {
+                Console.WriteLine(item.ToUpper());
+            }
+        }
+        static void dodajCiasto()
+        {
+            Console.WriteLine("Podaj nazwę swojego ciasta: ");
+            string noweCiasto = Console.ReadLine();
+            ciasta.Add(noweCiasto);
+            odswiez();
+        }
+        static void edytujCiasto()
+        {
+        }
+        static void usunCiasto()
+        {
+        }
+        static void wyswietlCiasto()
+        {
+        }
+        static void odswiez()
+        {
+            Console.Clear();
+            Console.WriteLine("Lista moich ciast!!!");
+            listaCiast();
+            menu();
+            Console.ReadKey();
+        }
+    }
+}
