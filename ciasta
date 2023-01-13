@@ -81,7 +81,7 @@ namespace Projektpraktyczny
 {
     class Program
     {
-        static List<string> ciasta = new List<string>() { "Murzynek", "Szarlotka", "Karpatka", "Sernik", "makowiec", "Kremówki" };
+        static List<string> ciasta = new List<string>() { "Murzynek", "Szarlotka", "Karpatka", "Sernik", "makowiec", "Kremówki" };    //lista
         static void Main(string[] args)
         {
             odswiez();
