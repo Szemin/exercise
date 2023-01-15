@@ -2,11 +2,12 @@
 {
     internal class Program
     {
-        
+        struct Book
+        {
         public string tytul;
         public string autor;
         public double strony;
-        
+        }
         static void Main()
         {
           
