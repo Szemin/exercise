@@ -2,6 +2,11 @@
 {
     internal class Program
     {
+        
+        public string tytul;
+        public string autor;
+        public double strony;
+        
         static void Main()
         {
           
