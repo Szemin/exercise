@@ -22,7 +22,7 @@
             ksiazka_2.strony = 4444;
             
             
-            Console.WriteLine($"ksiazka_1.tytul,1 {ksiazka_1.autor,1} {ksiazka_1.strony,1}");
+            Console.WriteLine($"ksiazka_1.tytul,1 {ksiazka_1.autor,1} {ksiazka_1.strony,1} \n ksiazka_2.tytul,1 {ksiazka_2.autor,1} {ksiazka_2.strony,1}");
             
             
               //obiekt to instancja klasy, a klasa może być używana przez plan(blueprint) do tworzenia obiektów
