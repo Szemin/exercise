@@ -21,6 +21,10 @@
             ksiazka_2.autor = "idk";
             ksiazka_2.strony = 4444;
             
+            
+            Console.WriteLine($"ksiazka_1.tytul,1 {ksiazka_1.autor,1} {ksiazka_1.strony,1}");
+            
+            
               //obiekt to instancja klasy, a klasa może być używana przez plan(blueprint) do tworzenia obiektów
             // obiekty mogą mieć pola i metody - pola(fields) to to co obiekt zawiera, metoda to to co obiekt może zrobić
             
