@@ -10,6 +10,13 @@
         static void Main()
         {
           
+            Book ksiazka_1;
+            Book ksiazka_2
+            
+            
+            
+            
+            
               //obiekt to instancja klasy, a klasa może być używana przez plan(blueprint) do tworzenia obiektów
             // obiekty mogą mieć pola i metody - pola(fields) to to co obiekt zawiera, metoda to to co obiekt może zrobić
             
